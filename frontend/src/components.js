@@ -106,11 +106,9 @@ export const Header = ({ darkMode, setDarkMode, setShowPostModal }) => {
               onClick={() => setShowProfile(!showProfile)}
               className="flex items-center space-x-2 p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full"
             >
-              <img 
-                src="https://images.unsplash.com/photo-1647833190352-0e7e579b45b6" 
-                alt="Profile" 
-                className="w-8 h-8 rounded-full object-cover"
-              />
+              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-sm">R</span>
+              </div>
             </button>
             {showProfile && (
               <div className="absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 z-50">
