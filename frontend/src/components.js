@@ -328,11 +328,9 @@ export const MainFeed = ({ darkMode, setShowPostModal, setShowStoryModal }) => {
       {/* Create Post */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-4 mb-4">
         <div className="flex space-x-3">
-          <img
-            src="https://images.unsplash.com/photo-1647833190352-0e7e579b45b6"
-            alt="Tu perfil"
-            className="w-10 h-10 rounded-full object-cover"
-          />
+          <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
+            <span className="text-white font-bold text-sm">R</span>
+          </div>
           <button
             onClick={() => setShowPostModal(true)}
             className="flex-1 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-full px-4 py-2 text-left text-gray-500 dark:text-gray-400"
