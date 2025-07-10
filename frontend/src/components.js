@@ -158,11 +158,12 @@ export const Header = ({ darkMode, setDarkMode, setShowPostModal }) => {
 export const Sidebar = ({ darkMode }) => {
   const menuItems = [
     { icon: '👤', label: 'María González', isProfile: true },
+    { icon: '🏠', label: 'REDIMACOL Inicio' },
     { icon: '👥', label: 'Amigos' },
     { icon: '⏰', label: 'Recuerdos' },
     { icon: '💾', label: 'Guardado' },
-    { icon: '👥', label: 'Grupos' },
-    { icon: '📺', label: 'Video' },
+    { icon: '👥', label: 'Grupos REDIMACOL' },
+    { icon: '📺', label: 'Videos Fe y Práctica' },
     { icon: '🛒', label: 'Marketplace' },
     { icon: '📰', label: 'Noticias de Perú' },
     { icon: '⛪', label: 'Iglesias Cercanas' },
