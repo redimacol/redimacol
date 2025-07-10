@@ -592,13 +592,11 @@ export const PostModal = ({ darkMode, onClose }) => {
 
         <form onSubmit={handleSubmit} className="p-4">
           <div className="flex items-center space-x-3 mb-4">
-            <img
-              src="https://images.unsplash.com/photo-1647833190352-0e7e579b45b6"
-              alt="Tu perfil"
-              className="w-10 h-10 rounded-full object-cover"
-            />
+            <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-white font-bold text-sm">R</span>
+            </div>
             <div>
-              <h3 className="font-semibold text-gray-800 dark:text-gray-200">María González</h3>
+              <h3 className="font-semibold text-gray-800 dark:text-gray-200">REDIMACOL Admin</h3>
               <select className="text-sm text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 rounded px-2 py-1">
                 <option>Público</option>
                 <option>Amigos</option>
