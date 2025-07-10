@@ -368,10 +368,17 @@ export const MainFeed = ({ darkMode, setShowPostModal, setShowStoryModal }) => {
       {/* Posts */}
       <div className="space-y-4">
         {posts.map((post) => (
-          <div key={post.id} className={`bg-white dark:bg-gray-800 rounded-lg shadow-sm ${post.isImportant ? 'border-l-4 border-red-500' : ''}`}>
+          <div key={post.id} className={`bg-white dark:bg-gray-800 rounded-lg shadow-sm ${
+            post.isImportant ? 'border-l-4 border-red-500' : ''
+          } ${post.isPinned ? 'border-l-4 border-blue-500' : ''}`}>
             {post.isImportant && (
               <div className="bg-red-50 dark:bg-red-900 px-4 py-2 rounded-t-lg">
                 <span className="text-red-600 dark:text-red-400 text-sm font-medium">📢 Noticia Importante del Perú</span>
+              </div>
+            )}
+            {post.isPinned && (
+              <div className="bg-blue-50 dark:bg-blue-900 px-4 py-2 rounded-t-lg">
+                <span className="text-blue-600 dark:text-blue-400 text-sm font-medium">📌 Publicación Destacada REDIMACOL</span>
               </div>
             )}
             <div className="p-4">
