@@ -205,10 +205,23 @@ export const MainFeed = ({ darkMode, setShowPostModal, setShowStoryModal }) => {
   const [posts, setPosts] = useState([
     {
       id: 1,
+      author: 'REDIMACOL Oficial',
+      avatar: 'https://images.unsplash.com/photo-1581589329842-a5c69e03540b',
+      time: '1h',
+      content: '¡Bendiciones para toda la familia REDIMACOL! Unidos en Fe y Práctica, creciendo juntos en el amor de Cristo. 👨‍👩‍👧‍👦✝️❤️',
+      image: 'https://images.unsplash.com/photo-1647833202056-e6e67293ba81',
+      likes: 156,
+      comments: 28,
+      shares: 45,
+      location: 'Comunidad REDIMACOL',
+      isPinned: true
+    },
+    {
+      id: 2,
       author: 'Pastor Juan Carlos',
       avatar: 'https://images.unsplash.com/photo-1647833190352-0e7e579b45b6',
       time: '2h',
-      content: '¡Qué hermoso servicio tuvimos hoy! El Señor se manifestó poderosamente. 🙏✨',
+      content: '¡Qué hermoso servicio tuvimos hoy! El Señor se manifestó poderosamente en REDIMACOL. 🙏✨',
       image: 'https://images.unsplash.com/photo-1655392030908-5086e079c0d8',
       likes: 24,
       comments: 8,
