@@ -153,7 +153,7 @@ export const Header = ({ darkMode, setDarkMode, setShowPostModal }) => {
 // Sidebar Component
 export const Sidebar = ({ darkMode }) => {
   const menuItems = [
-    { icon: '👤', label: 'María González', isProfile: true },
+    { icon: '👤', label: 'REDIMACOL Admin', isProfile: true },
     { icon: '🏠', label: 'REDIMACOL Inicio' },
     { icon: '👥', label: 'Amigos' },
     { icon: '⏰', label: 'Recuerdos' },
