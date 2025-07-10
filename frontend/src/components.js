@@ -114,13 +114,11 @@ export const Header = ({ darkMode, setDarkMode, setShowPostModal }) => {
               <div className="absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 z-50">
                 <div className="p-4">
                   <div className="flex items-center space-x-3 mb-3">
-                    <img 
-                      src="https://images.unsplash.com/photo-1647833190352-0e7e579b45b6" 
-                      alt="Profile" 
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white font-bold text-lg">R</span>
+                    </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800 dark:text-gray-200">María González</h4>
+                      <h4 className="font-semibold text-gray-800 dark:text-gray-200">REDIMACOL Admin</h4>
                       <p className="text-sm text-gray-500 dark:text-gray-400">Ver perfil</p>
                     </div>
                   </div>
