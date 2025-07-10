@@ -189,7 +189,7 @@ export const Sidebar = ({ darkMode }) => {
         </nav>
         
         <div className="mt-6 p-3 bg-blue-50 dark:bg-blue-900 rounded-lg">
-          <h3 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">Versículo del día</h3>
+          <h3 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">REDIMACOL - Versículo del día</h3>
           <p className="text-sm text-blue-700 dark:text-blue-300">
             "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito..." 
           </p>
