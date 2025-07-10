@@ -22,7 +22,7 @@ export const Header = ({ darkMode, setDarkMode, setShowPostModal }) => {
               <span className="text-white font-bold text-lg">✝</span>
             </div>
             <span className="text-xl font-bold text-blue-600 dark:text-blue-400 hidden md:block">
-              Fe y Práctica
+              REDIMACOL "FE y PRACTICA"
             </span>
           </div>
           <div className="relative">
